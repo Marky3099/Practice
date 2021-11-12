@@ -1,11 +1,7 @@
 CREATE DATABASE cwts;
 
 USE cwts;
-<<<<<<< HEAD
 
-=======
-asd
->>>>>>> e27972eea6550a5c12953ccf75d44ee6abdde97a
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
