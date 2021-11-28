@@ -1,6 +1,5 @@
 CREATE DATABASE cwts;
 
-add
 
 USE cwts;
 
