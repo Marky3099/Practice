@@ -102,8 +102,9 @@ INSERT INTO `course` (`id`, `course`, `description`, `status`, `created_at`, `up
 (3, 'DOMT', 'Diploma in Office Management Technology', 'a', '2021-06-23 00:31:22', NULL, NULL),
 (4, 'ME', 'Mechanical Engineering', 'a', '2021-06-23 00:37:00', '2021-06-23 00:54:43', NULL),
 (5, 'BSED-ENG', 'Bachelor of Secondary Education Major in English', 'a', '2021-09-23 12:33:24', NULL, NULL),
-(6, 'BSED-MATH', 'Bachelor of Secondary Education Major in Mathematics', 'a', '2021-11-12 10:33:24', NULL, NULL);
-
+(6, 'BSED-MATH', 'Bachelor of Secondary Education Major in Mathematics', 'a', '2021-11-12 10:33:24', NULL, NULL),
+(7, 'BSECE', 'Bachelor of Secondary in Electronics Comunication Technology', 'a', '2021-11-28 3:18:24', NULL, NULL),
+(8, 'BSA', 'Bachelor of Secondary in Accountancy', 'a', '2021-11-28 3:18:24', NULL, NULL);
 -- --------------------------------------------------------
 
 --
