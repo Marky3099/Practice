@@ -290,7 +290,7 @@ CREATE TABLE `permissions` (
   `module_id` int(11) NOT NULL,
   `table_name` varchar(100) NOT NULL,
   `func_action` varchar(50) DEFAULT NULL,
-  `allowed_roles` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL DEFAULT '[1]' CHECK (json_valid(`allowed_roles`)),
+  `allowed_roles` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL CHECK (json_valid(`allowed_roles`)),
   `order` int(11) NOT NULL,
   `status` char(1) NOT NULL DEFAULT 'a',
   `func_type` int(1) NOT NULL DEFAULT 3,
