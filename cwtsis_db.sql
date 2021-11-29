@@ -514,7 +514,10 @@ INSERT INTO `student` (`id`, `stud_num`, `serial_num`, `user_id`, `lastname`, `f
 (106, '2018-00343-TG-0', '', 36, 'Cabanela', 'Charmie', '', '2', '(+63)9494271642', '2000-04-24', 21, 'South Signal, Taguig City', 1, 1, 2, 0, '1-2', NULL, NULL, 'charmcabanela@gmail.com', 'a', '2021-08-24 10:32:55', '2021-08-24 10:33:54', NULL),
 (107, '2018-00556-TG-0', '05-03333-550', 0, 'Manuel', 'Marco', 'Mercado', '1', '9667067831', '1980-12-04', 44, 'Taguig', 1, 1, 1, 0, '1-1', NULL, NULL, 'marcomanuel25@gmail.com', 'a', '2021-08-25 06:07:31', '2021-09-04 19:02:13', NULL),
 (108, '2018-45579-TG-0', '06-0555-5502', 0, 'Mae', 'Sheila', 'Yacub', '2', '9667067841', '1999-04-15', 21, 'Taguig', 2, 0, 0, 0, '', NULL, NULL, '', 'a', '2021-08-25 06:07:31', '2021-08-26 20:00:03', NULL),
-(109, '2018-00372-TG-0', '', 37, 'Manuel', 'Marcus Kim', 'Vibal', '1', '(+63)9667067831', '1998-04-29', 23, '33 Mangga Road, corner. Pag-asa St. Brgy. Katuparan', 1, 1, 3, 0, '1-3', NULL, NULL, 'marcusmanuel.pupt@gmail.com', 'a', '2021-09-23 12:25:20', '2021-09-23 12:26:23', NULL);
+(109, '2018-00372-TG-0', '', 37, 'Manuel', 'Marcus Kim', 'Vibal', '1', '(+63)9667067831', '1998-04-29', 23, '33 Mangga Road, corner. Pag-asa St. Brgy. Katuparan', 1, 1, 3, 0, '1-3', NULL, NULL, 'marcusmanuel.pupt@gmail.com', 'a', '2021-09-23 12:25:20', '2021-09-23 12:26:23', NULL)
+(110, '2018-00291-TG-0', '',0, 'Estolloso', 'Via Jean', 'Sanchez', '2', '09267512858', '2000-02-11', 21, '#8 SCARLET STREET, CONCEPCION DOS, MARIKINA CITY', 6, 2, 0,0,NULL, NULL,'estollosoviajean@gmail.com', 'a', 2021-11-29 10:49:00,'2021-11-29 10:49:00', NULL)
+(111, '2018-00362-TG-0', '', 0, 'Lagunilla', 'Azenith', 'Lagman', '2', '09533811650', '2000-10-27', 21, '451-B ZONE 3 SITIO PAGKAKAISA SUCAT MUNTINLUPA CITY', 6, 2, 0, 0, NULL, NULL, 'lagunillaazenith27@gmail.com', 'a', 2021-11-29 10:49:00,'2021-11-29 10:49:00', NULL)
+(112, '2018-00222-TG-0', '', 0, 'Julian', 'Maria Angela', 'Chavez', '2', '09615175416', '1999-9-15', 22, 'CAA, Las Piñas City', 6, 2, 0, 0, NULL, NULL, 'mariaangelajulian@gmail.com', 'a', '2021-11-29 10:49:00','2021-11-29 10:49:00', NULL);
 
 -- --------------------------------------------------------
 
