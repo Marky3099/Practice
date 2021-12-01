@@ -153,7 +153,7 @@ INSERT INTO `enrollment` (`id`, `subject_id`, `schyear_id`, `student_id`, `stud_
 
 delete from 'enrollment'
   where id = 55;  
-COMMIT;
+ROLLBACK;
 -- --------------------------------------------------------
 
 --
