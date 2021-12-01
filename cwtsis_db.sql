@@ -135,7 +135,6 @@ CREATE TABLE `enrollment` (
 --
 -- Dumping data for table `enrollment`
 --
-START TRANSACTION;
 
 INSERT INTO `enrollment` (`id`, `subject_id`, `schyear_id`, `student_id`, `stud_num`, `required_hrs`, `accumulated_hrs`, `professor_id`, `day`, `start_time`, `end_time`, `status`, `created_at`, `updated_at`, `deleted_at`) VALUES
 (55, 1, 1, 88, '2018-00231-TG-0', '33.04', '2.00', 26, 'Monday', '07:30:00', '10:30:00', 'i', '2021-08-23 08:04:39', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
@@ -151,9 +150,6 @@ INSERT INTO `enrollment` (`id`, `subject_id`, `schyear_id`, `student_id`, `stud_
 (80, 1, 2, 111,'2018-00362-TG-0', '30', '', 26, 'Thursday', '07:30:00', '10:30:00', 'i', '2021-11-29 10:49:00','0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (81, 1, 2, 112, '2018-00222-TG-0', '30', '', 26, 'Thursday', '07:30:00', '10:30:00', 'i', '2021-11-29 10:49:00','0000-00-00 00:00:00', '0000-00-00 00:00:00');
 
-delete from 'enrollment'
-  where id = 55;  
-ROLLBACK;
 -- --------------------------------------------------------
 
 --
